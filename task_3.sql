@@ -1,3 +1,5 @@
--- List all tables in the alx_book_store database
+-- Ensure we are using the correct database
+USE alx_book_store;
+
+-- List all tables in the specified database
 SHOW TABLES;
-mysql -u <username> -p alx_book_store < task_3.sql
